@@ -39,5 +39,5 @@ public:
     DepartmentNode* getRoot() const;
 };
 
-#endif // DEPARTMENTTREE_H
+#endif 
 
