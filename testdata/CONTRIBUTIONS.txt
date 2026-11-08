@@ -14,3 +14,7 @@ departments and their parent child relationships. I also developed functions to 
 department data, display the tree, and perform preorder, postorder, and level order traversals. 
 Additionally, I created functions to count the total number of departments, identify leaf departments, 
 and calculate the height of the tree.
+
+Member A - Lucy Naggayi
+
+I worked on Facilities records: loading, searching and displaying them and I also created a custom hash table.  
