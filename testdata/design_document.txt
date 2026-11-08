@@ -2,8 +2,21 @@ Design Document - Milestone 1
 
 Custom Hash Table:
 
-The facility database uses a custom hash table to store and search for campus facilities using IDs. The HashTable class uses a vector of lists (vector<list<Facility>>) with the initial capacity of 101 buckets.
+The facility database uses a custom hash table to store and search for campus facilities
+using IDs. The HashTable class uses a vector of lists (vector<list<Facility>>) with the
+initial capacity of 101 buckets.
 
-The function processes each character of a facility ID by multiplying the current hash value by 31 and adding the character's value. The final index is calculated using the modulo operator with the table size. The hash formula is: hash = (hash * 31 + character) % tableSize, with the modulo applied after processing the key.
+The function processes each character of a facility ID by multiplying the current hash
+value by 31 and adding the character's value. The final index is calculated using the
+modulo operator with the table size. The hash formula is: hash = (hash * 31 + character)
+% tableSize, with the modulo applied after processing the key.
 
-The collision-handling strategy is separate chaining, meaning the facilities with the same hash index are stored in the same linked list. This approach was chosen 
+The collision-handling strategy is separate chaining, meaning the facilities with the
+same hash index are stored in the same linked list. This approach was chosen because it
+allows multiple facilities to share a bucket without requiring a fixed max number of
+entries. The searchByID() function will calculate the hash index and searches the 
+corresponding list for a matching ID.
+
+Campus Graph:
+
+The campus graph uses an undirected, unweighted graph represented by an adjacency list
