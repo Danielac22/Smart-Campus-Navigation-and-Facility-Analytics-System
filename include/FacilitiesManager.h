@@ -3,7 +3,7 @@
 
 #include <vector>
 #include <string>
-#include "Facility.h"
+#include "Facilities.h"
 #include "HashTable.h"
 
 using namespace std;

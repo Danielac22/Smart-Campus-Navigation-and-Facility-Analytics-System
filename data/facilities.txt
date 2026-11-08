@@ -20,5 +20,4 @@ F009|Room 205|Science Building|Classroom
 
 F010|Research Help Desk|Library|Library
 
-The sample contains two facilities named Room 101; a name search must return both.
-
+# The sample contains two facilities named Room 101; a name search must return both.

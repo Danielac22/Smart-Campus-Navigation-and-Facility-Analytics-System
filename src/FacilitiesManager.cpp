@@ -1,10 +1,18 @@
-#include "FacilityManager.h"
+#include "FacilitiesManager.h"
 #include <fstream>
 #include <sstream>
 #include <iostream>
 #include <map>
 
 using namespace std;
+
+
+void displayFacility(const Facility& facility) {
+    cout << "\nID: " << facility.facilityID << endl;
+    cout << "Name: " << facility.facilityName << endl;
+    cout << "Building: " << facility.buildingName << endl;
+    cout << "Category: " << facility.category << endl;
+}
 
 bool FacilityManager::loadFacilities(const string& filename) {
     ifstream file(filename);
@@ -19,7 +27,7 @@ bool FacilityManager::loadFacilities(const string& filename) {
 
     while (getline(file, line))
     {
-        if (line.empty())
+        if (line.empty() || line[0] == '#')
             continue;
 
         stringstream ss(line);
@@ -29,14 +37,16 @@ bool FacilityManager::loadFacilities(const string& filename) {
         string category;
         string buildingName;
 
-        getline(ss, id, ',');
-        getline(ss, name, ',');
-        getline(ss, category, ',');
-        getline(ss, building);
+        getline(ss, facilityID, '|');
+        getline(ss, facilityName, '|');
+        getline(ss, buildingName,'|');
+        getline(ss, category);
+        
 
-        Facility facility(id, name, category, building);
+        Facility facility(facilityID, facilityName, category, buildingName);
 
         facilities.push_back(facility);
+        facilityTable.insert(facility);
     }
 
     file.close();
@@ -74,8 +84,7 @@ void FacilityManager::searchByID(const string& id) {
     }
 }
 
-void searchByName(const string& name) {
-
+void FacilityManager::searchByName(const string& name){
     bool found = false;
 
     for(const Facility& facility : facilities)
@@ -93,8 +102,7 @@ void searchByName(const string& name) {
     }
 }
 
-void searchByCategory(const string& category){
-
+void FacilityManager::searchByCategory(const string& category){
     bool found = false;
 
     for(const Facility& facility : facilities) {
@@ -110,8 +118,7 @@ void searchByCategory(const string& category){
     }
 }
 
-void categoryReport() {
-
+void FacilityManager::categoryReport(){
     map<string, int> report;
 
     for(const Facility& facility : facilities)
