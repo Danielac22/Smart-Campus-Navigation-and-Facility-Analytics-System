@@ -1,10 +1,10 @@
 #ifndef HASHTABLE_H
 #define HASHTABLE_H
 
+#include <string>
 #include <vector>
 #include <list>
-#include "Facility.h"
-
+#include "Facilities.h"
 using namespace std;
 
 class HashTable {
