@@ -12,4 +12,4 @@ Science Building|Engineering Building
 
 Business Building|Gym
 
-The sample contains seven buildings and six connections. Observatory is isolated.
+# The sample contains seven buildings and six connections. Observatory is isolated.

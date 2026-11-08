@@ -7,3 +7,10 @@ connections. I also developed functions to load and validate building and connec
 data, display the graph, and calculate building degrees and total connections. Did BFS
 using a queue and visited structure to display reachable buildings and their distances.
 Lastly, i created graph tests for connected, isolated, and unknown buildings.
+
+Member C - Daniela Cortez
+I implemented the  department tree using a tree structure to represent the university's 
+departments and their parent child relationships. I also developed functions to load and organize
+department data, display the tree, and perform preorder, postorder, and level order traversals. 
+Additionally, I created functions to count the total number of departments, identify leaf departments, 
+and calculate the height of the tree.
