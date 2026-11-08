@@ -1,7 +1,5 @@
 Member B - Catarina Antonio
 
-Campus Graph and BFS
-
 I implemented the campus graph using an adjacency list to represent buildings and their
 connections. I also developed functions to load and validate building and connection
 data, display the graph, and calculate building degrees and total connections. Did BFS
