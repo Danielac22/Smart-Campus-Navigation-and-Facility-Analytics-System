@@ -7,3 +7,7 @@ connections. I also developed functions to load and validate building and connec
 data, display the graph, and calculate building degrees and total connections. Did BFS
 using a queue and visited structure to display reachable buildings and their distances.
 Lastly, i created graph tests for connected, isolated, and unknown buildings.
+
+Member A - Lucy Naggayi
+
+I worked on Facilities records: loading, searching and displaying them and I also created a custom hash table.  
