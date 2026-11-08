@@ -1,4 +1,4 @@
-Member B – Catarina Antonio
+Member B - Catarina Antonio
 
 Campus Graph and BFS
 
@@ -6,15 +6,18 @@ I implemented the campus graph using an adjacency list to represent buildings an
 connections. I also developed functions to load and validate building and connection
 data, display the graph, and calculate building degrees and total connections. Did BFS
 using a queue and visited structure to display reachable buildings and their distances.
-Lastly, i created graph tests for connected, isolated, and unknown buildings.
+Lastly, I created graph tests for connected, isolated, and unknown buildings.
+
 
 Member C - Daniela Cortez
-I implemented the  department tree using a tree structure to represent the university's 
-departments and their parent child relationships. I also developed functions to load and organize
-department data, display the tree, and perform preorder, postorder, and level order traversals. 
-Additionally, I created functions to count the total number of departments, identify leaf departments, 
+
+I implemented the department tree using a tree structure to represent the university's
+departments and their parent-child relationships. I also developed functions to load and organize
+department data, display the tree, and perform preorder, postorder, and level-order traversals.
+Additionally, I created functions to count the total number of departments, identify leaf departments,
 and calculate the height of the tree.
+
 
 Member A - Lucy Naggayi
 
-I worked on Facilities records: loading, searching and displaying them and I also created a custom hash table.  
+I worked on Facilities records: loading, searching and displaying them and I also created a custom hash table.
