@@ -17,6 +17,7 @@ private:
 
 public:
 
+//setters and getters 
     bool loadFacilities(const string& filename);
     void searchByID(const string& id);
     void searchByName(const string& name);
