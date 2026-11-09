@@ -1,1 +1,1619 @@
+Smart Campus Navigation System loaded.
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 13
+Enter new department name: Computer Science
+Enter parent department name: College of Engineering
+Error: Department already exists: Computer Science
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 13
+Enter new department name: weird department
+Enter parent department name: datta science
+Error: Parent department not found: datta science
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 13
+Enter new department name: data science
+Enter parent department name: College of Engineering
+Department added successfully.
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 14
+Enter department name to search: Data Science
+Department not found: Data Science
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 14
+Enter department name to search: data science
+
+Department Found
+Name: data science
+Parent: College of Engineering
+Number of children: 0
+Depth: 2
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 9
+
+Department Preorder Traversal:
+University
+College of Engineering
+Computer Science
+Electrical Engineering
+data science
+College of Science
+Mathematics
+Physics
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 10
+
+Department Postorder Traversal:
+Computer Science
+Electrical Engineering
+data science
+College of Engineering
+Mathematics
+Physics
+College of Science
+University
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 11
+
+Department Level-Order Traversal:
+University
+College of Engineering
+College of Science
+Computer Science
+Electrical Engineering
+data science
+Mathematics
+Physics
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 11
+
+Department Level-Order Traversal:
+University
+College of Engineering
+College of Science
+Computer Science
+Electrical Engineering
+data science
+Mathematics
+Physics
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 12
+Total departments: 8
+Leaf departments: 5
+Height of the department tree: 2
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: Classroom
+Invalid choice. Please try again.
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 4
+Enter facility category: Classroom
+
+ID: F005
+Name: Room 101
+Building: Engineering Building
+Category: Classroom
+
+ID: F007
+Name: Room 101
+Building: Business Building
+Category: Classroom
+
+ID: F009
+Name: Room 205
+Building: Science Building
+Category: Classroom
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 5
+
+===== CATEGORY REPORT =====
+Classroom: 3
+Computer Lab: 2
+Library: 2
+Recreation: 1
+Student Services Office: 1
+Tutoring Center: 1
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 1
+
+ID: F001
+Name: Main Reading Room
+Building: Library
+Category: Library
+
+ID: F002
+Name: Tutoring Center
+Building: Library
+Category: Tutoring Center
+
+ID: F003
+Name: Student Services Office
+Building: Student Union
+Category: Student Services Office
+
+ID: F004
+Name: Computer Lab A
+Building: Science Building
+Category: Computer Lab
+
+ID: F005
+Name: Room 101
+Building: Engineering Building
+Category: Classroom
+
+ID: F006
+Name: Computer Lab B
+Building: Engineering Building
+Category: Computer Lab
+
+ID: F007
+Name: Room 101
+Building: Business Building
+Category: Classroom
+
+ID: F008
+Name: Fitness Center
+Building: Gym
+Category: Recreation
+
+ID: F009
+Name: Room 205
+Building: Science Building
+Category: Classroom
+
+ID: F010
+Name: Research Help Desk
+Building: Library
+Category: Library
+
+Total facilities: 10
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 6
+Library: Student Union, Business Building
+Student Union: Library, Science Building, Gym
+Science Building: Student Union, Engineering Building
+Engineering Building: Science Building
+Business Building: Library, Gym
+Gym: Student Union, Business Building
+Observatory: (no connections)
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 7
+Total buildings: 7
+Total connections: 6
+Library - Degree: 2
+Student Union - Degree: 3
+Science Building - Degree: 2
+Engineering Building - Degree: 1
+Business Building - Degree: 2
+Gym - Degree: 2
+Observatory - Degree: 0
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 8
+Enter building name: Library
+Library (distance 0)
+Student Union (distance 1)
+Business Building (distance 1)
+Science Building (distance 2)
+Gym (distance 2)
+Engineering Building (distance 3)
+Reachable: 6 of 7 buildings
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 8
+Enter building name: Observatory
+Observatory (distance 0)
+Reachable: 1 of 7 buildings
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 8
+Enter building name: Observatory
+Observatory (distance 0)
+Reachable: 1 of 7 buildings
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 8
+Enter building name: Weird Building
+Error: Unknown building: Weird Building
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 99
+Invalid choice. Please try again.
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 13
+Enter new department name: Computer Science
+Enter parent department name: College of Engineering
+Error: Department already exists: Computer Science
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 13
+Enter new department name: weird department
+Enter parent department name: datta science
+Error: Parent department not found: datta science
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 13
+Enter new department name: data science
+Enter parent department name: College of Engineering
+Department added successfully.
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 14
+Enter department name to search: Data Science
+Department not found: Data Science
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 14
+Enter department name to search: data science
+
+Department Found
+Name: data science
+Parent: College of Engineering
+Number of children: 0
+Depth: 2
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 9
+
+Department Preorder Traversal:
+University
+College of Engineering
+Computer Science
+Electrical Engineering
+data science
+College of Science
+Mathematics
+Physics
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 10
+
+Department Postorder Traversal:
+Computer Science
+Electrical Engineering
+data science
+College of Engineering
+Mathematics
+Physics
+College of Science
+University
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 11
+
+Department Level-Order Traversal:
+University
+College of Engineering
+College of Science
+Computer Science
+Electrical Engineering
+data science
+Mathematics
+Physics
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 11
+
+Department Level-Order Traversal:
+University
+College of Engineering
+College of Science
+Computer Science
+Electrical Engineering
+data science
+Mathematics
+Physics
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 12
+Total departments: 8
+Leaf departments: 5
+Height of the department tree: 2
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: Classroom
+Invalid choice. Please try again.
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 4
+Enter facility category: Classroom
+
+ID: F005
+Name: Room 101
+Building: Engineering Building
+Category: Classroom
+
+ID: F007
+Name: Room 101
+Building: Business Building
+Category: Classroom
+
+ID: F009
+Name: Room 205
+Building: Science Building
+Category: Classroom
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 5
+
+===== CATEGORY REPORT =====
+Classroom: 3
+Computer Lab: 2
+Library: 2
+Recreation: 1
+Student Services Office: 1
+Tutoring Center: 1
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 1
+
+ID: F001
+Name: Main Reading Room
+Building: Library
+Category: Library
+
+ID: F002
+Name: Tutoring Center
+Building: Library
+Category: Tutoring Center
+
+ID: F003
+Name: Student Services Office
+Building: Student Union
+Category: Student Services Office
+
+ID: F004
+Name: Computer Lab A
+Building: Science Building
+Category: Computer Lab
+
+ID: F005
+Name: Room 101
+Building: Engineering Building
+Category: Classroom
+
+ID: F006
+Name: Computer Lab B
+Building: Engineering Building
+Category: Computer Lab
+
+ID: F007
+Name: Room 101
+Building: Business Building
+Category: Classroom
+
+ID: F008
+Name: Fitness Center
+Building: Gym
+Category: Recreation
+
+ID: F009
+Name: Room 205
+Building: Science Building
+Category: Classroom
+
+ID: F010
+Name: Research Help Desk
+Building: Library
+Category: Library
+
+Total facilities: 10
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 6
+Library: Student Union, Business Building
+Student Union: Library, Science Building, Gym
+Science Building: Student Union, Engineering Building
+Engineering Building: Science Building
+Business Building: Library, Gym
+Gym: Student Union, Business Building
+Observatory: (no connections)
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 7
+Total buildings: 7
+Total connections: 6
+Library - Degree: 2
+Student Union - Degree: 3
+Science Building - Degree: 2
+Engineering Building - Degree: 1
+Business Building - Degree: 2
+Gym - Degree: 2
+Observatory - Degree: 0
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 8
+Enter building name: Library
+Library (distance 0)
+Student Union (distance 1)
+Business Building (distance 1)
+Science Building (distance 2)
+Gym (distance 2)
+Engineering Building (distance 3)
+Reachable: 6 of 7 buildings
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 8
+Enter building name: Observatory
+Observatory (distance 0)
+Reachable: 1 of 7 buildings
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 8
+Enter building name: Observatory
+Observatory (distance 0)
+Reachable: 1 of 7 buildings
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 8
+Enter building name: Weird Building
+Error: Unknown building: Weird Building
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 99
+Invalid choice. Please try again.
+
+====================================
+ SMART CAMPUS NAVIGATION SYSTEM
+====================================
+
+FACILITIES
+1. View all facilities
+2. Search for a facility by ID
+3. Search for a facility by name
+4. Search for a facility by category
+5. Display facility category report
+
+CAMPUS GRAPH
+6. Display campus graph
+7. Display graph statistics
+8. Find reachable buildings (BFS)
+
+DEPARTMENT TREE
+9. Display preorder traversal
+10. Display postorder traversal
+11. Display level-order traversal
+12. Display department statistics
+13. Add a department
+14. Search for a department by name
+
+0. Exit
+====================================
+
+Enter your choice: 
 
