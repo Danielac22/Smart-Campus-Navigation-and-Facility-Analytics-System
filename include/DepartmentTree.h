@@ -23,8 +23,9 @@ private:
     DepartmentNode* root;
 
 public:
-    DepartmentTree();
+    DepartmentTree(); //construct 
 
+//setters and getters 
     void addDepartment(const string& name, const string& parentName);
     void loadDepartments(const string& filename);
 
