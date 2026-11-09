@@ -34,7 +34,7 @@ Uses a general tree to represent the academic department hierarchy. Each departm
 
 ## Project File Structure
 
-```text
+
 Smart-Campus-Navigation-and-Facility-Analytics-System/
 │
 ├── data/
@@ -62,7 +62,7 @@ Smart-Campus-Navigation-and-Facility-Analytics-System/
 ├── design_document.txt
 ├── test_results.txt
 └── .gitignore
-```
+
 
 Additional facility and hash-table source files will be included as the team completes integration.
 
@@ -72,10 +72,10 @@ The project is written in C++ and can be compiled using g++.
 
 To compile and run the Campus Graph module independently, from the project root directory:
 
-```bash
+
 g++ -std=c++17 src/CampusGraph.cpp tests/CampusGraphTest.cpp -o campus_graph_test
 ./campus_graph_test
-```
+
 
 The complete application will use a shared `main.cpp` that integrates the facility, graph, and department modules. The final Milestone 1 build command will be added after integration.
 
