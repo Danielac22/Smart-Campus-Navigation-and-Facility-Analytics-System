@@ -12,7 +12,7 @@ struct Facility {
     string category;
     string buildingName;
 
-    Facility()
+    Facility() // default construct 
     {
         facilityID = "";
         facilityName = "";
@@ -20,7 +20,7 @@ struct Facility {
         buildingName = "";
     }
 
-    Facility(string id, string facility, string cat, string building) {
+    Facility(string id, string facility, string cat, string building) { // parameterized construct 
         
         facilityID = id;
         facilityName = facility;
