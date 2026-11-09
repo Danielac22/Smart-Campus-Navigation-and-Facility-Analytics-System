@@ -38,9 +38,15 @@ connections, and the degree of each building.
 
 Department Tree:
 
-The department hierarchy is represented using a general tree. Each DepartmentNode stores a department name, a pointer to its parent, and a vector of pointers to the children. This structure allows each department to have multiple subdepartments. The DepartmentTree class stores the root department and provides functions for loading departments, addidng new department, and traversing the hierarchy.
+The department hierarchy is represented using a general tree. Each DepartmentNode stores
+a department name, a pointer to its parent, and a vector of pointers to the children.
+This structure allows each department to have multiple subdepartments. The DepartmentTree
+class stores the root department and provides functions for loading departments, addidng
+new department, and traversing the hierarchy.
 
-Departments are added by locating their parent using a queue. Preorder traversal visits the parent before its children, allowing the program to display the department hierarchy in hierarchical order.
+Departments are added by locating their parent using a queue. Preorder traversal visits
+the parent before its children, allowing the program to display the department hierarchy
+in hierarchical order.
 
 Main classes and modules:
 
