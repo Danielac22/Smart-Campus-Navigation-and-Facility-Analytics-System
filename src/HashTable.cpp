@@ -8,6 +8,7 @@ HashTable::HashTable(int size) {
     table.resize(tableSize);
 }
 
+// hash function 
 int HashTable::hashFunction(const string& key)
 {
     unsigned int hash = 0;
@@ -27,6 +28,7 @@ void HashTable::insert(const Facility& facility)
     table[index].push_back(facility);
 }
 
+//searching by ID 
 Facility* HashTable::searchByID(const string& id)
 {
     int index = hashFunction(id);
