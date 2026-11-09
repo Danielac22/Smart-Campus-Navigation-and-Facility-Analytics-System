@@ -1,4 +1,4 @@
-# Smart-Campus-Navigation-and-Facility-Analytics-System
+
 # Smart Campus Navigation and Facility Analytics System
 **Project 2 – Milestone 1**
 
