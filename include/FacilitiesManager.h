@@ -24,8 +24,8 @@ public:
     void searchByCategory(const string& category);
 
 
-    void displayAllFacilities();
-    void categoryReport();
+    void displayAllFacilities(); //display all facilities 
+    void categoryReport(); //report by category 
 };
 
 #endif
