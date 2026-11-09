@@ -18,4 +18,7 @@ and calculate the height of the tree.
 
 Member A - Lucy Naggayi
 
-I worked on Facilities records: loading, searching and displaying them and I also created a custom hash table.
+I implemented the Facilities records: loading valid facility records, searching by ID using the custom ID hash table,
+searching by facility name, searching by category and displaying them. I also created a custom hash table class keyed by facility ID, 
+supporting insertion, lookup, duplicate-key detection, and collision handling and creatin a category report. 
+
