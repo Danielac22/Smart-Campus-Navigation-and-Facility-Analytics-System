@@ -14,9 +14,47 @@ modulo operator with the table size. The hash formula is: hash = (hash * 31 + ch
 The collision-handling strategy is separate chaining, meaning the facilities with the
 same hash index are stored in the same linked list. This approach was chosen because it
 allows multiple facilities to share a bucket without requiring a fixed max number of
-entries. The searchByID() function will calculate the hash index and searches the 
+entries. The searchByID() function will calculate the hash index and searches the
 corresponding list for a matching ID.
 
 Campus Graph:
 
-The campus graph uses an undirected, unweighted graph represented by an adjacency list
+The campus graph uses an undirected, unweighted graph represented by an adjacency list.
+Each campus building is stored as a vertex, and each walkway connecting two buildinds is
+represented as an edge.
+
+The CampusGraph class uses a vector to store building names and a vector of vectors to
+store the indices of neighboring buildings. This representation was chosen because it
+efficiently stores connections and makes it easy to access neighboring buildings.
+
+The graph loads building and connection information from text files and checks for 
+duplicate buildings, duplicate connections, self-connections, and unknown building 
+references. 
+
+The BFS is implemented using a queue and a visited structure. BFS explores buildings
+level by level and calculates the distance from a starting building based on the number
+of connections. The graph also supports displaying all buildings, their neighbors, total
+connections, and the degree of each building.
+
+Department Tree:
+
+The department hierarchy is represented using a general tree. Each DepartmentNode stores a department name, a pointer to its parent, and a vector of pointers to the children. This structure allows each department to have multiple subdepartments. The DepartmentTree class stores the root department and provides functions for loading departments, addidng new department, and traversing the hierarchy.
+
+Departments are added by locating their parent using a queue. Preorder traversal visits the parent before its children, allowing the program to display the department hierarchy in hierarchical order.
+
+Main classes and modules:
+
+This project is organized into separate classes and modules- 
+1. Facility: Stores the facility ID, name, category, and building location.
+2. HashTables: Implements the custom hash function, separate chaining, insertion, and ID
+lookup.
+3. FacilityManager: Manages facility records, file loading, and facility searches.
+4. Campus Graph: Stores campus buildings and connections, displays graph statistics, and
+performs BFS.
+5. Department Node: Represents an individual department and its parent-child
+relationships.
+6. Department Tree: Manages the department hierarchy and tree traversals.
+
+Each module is implemented separately so that team members can develop and test their assigned components before integrating them into the main program.
+
+
